@@ -34,6 +34,7 @@ function validate(fields) {
 }
 
 function LoginPage() {
+  // use navigations 
   const navigate = useNavigate()
   const [fields, setFields] = useState({ email: '', password: '' })
   const [errors, setErrors] = useState({})
